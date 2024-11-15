@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 flex items-center p-3 pb-0 shadow-md bg-white">
-      <p className="text-xs text-gray-500 mr-[48rem] ml-10">
+    <div className="fixed top-0 left-0 right-0 z-10 flex items-center p-3 pb-0 -mb-3 shadow-md bg-white ml-[12.4rem]">
+      <p className="text-xs text-gray-500 mr-[37rem] ml-5">
         Welcome back, <span className="font-bold">test</span>
       </p>
       <p className="font-bold text-gray-500 text-xs mr-3">
@@ -19,12 +20,11 @@ const Header = () => {
       <i className="fa-solid fa-bell text-gray-500 text-sm mr-8"></i>
       <i className="fa-solid fa-gear text-gray-500 text-sm mr-8"></i>
       <select
-        className="outline-none text-xs text-gray-500 bg-green-100 w-16 pl-3 h-12"
+        className="outline-none text-xs text-gray-500 bg-green-100 w-16 pl-3 h-12 cursor-pointer"
         value="test"
       >
         <option className="hidden" value="test">
-          {" "}
-          test{" "}
+          test
         </option>
         <option className="bg-white" value="My Profile">
           My Profile
@@ -44,5 +44,5 @@ const Header = () => {
       </select>
     </div>
   );
-}  
-export default Header
+};
+export default Header;

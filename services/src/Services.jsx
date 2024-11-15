@@ -5,7 +5,7 @@ const Services = () => {
   return (
     <div className="bg-[#f7f9f7] w-screen h-screen mt-[3.7rem]">
       <div className="flex justify-between items-center">
-        <button className="mt-3 ml-16 text-xs font-semibold text-white px-3 py-2.5 bg-blue-600 rounded-md">
+        <button className="mt-3 ml-52 text-xs font-semibold text-white px-3 py-2.5 bg-blue-600 rounded-md">
           Add Services
         </button>
         <i className="absolute fa-solid fa-magnifying-glass text-gray-500 ml-[90.5rem] mt-3"></i>
@@ -14,7 +14,7 @@ const Services = () => {
           placeholder="Search"
         />
       </div>
-      <button className="p-3 active:bg-gray-400 mt-2 ml-14 font-semibold text-sm relative">
+      <button className="p-3 active:bg-gray-400 mt-2 ml-[13rem] font-semibold text-sm relative">
         <span
           className="underline underline-offset-[15px] text-gray-900"
           style={{ textDecorationColor: "blue" }}
@@ -22,8 +22,8 @@ const Services = () => {
           SERVICES
         </span>
       </button>
-      <hr className="w-[93%] ml-14" />
-      <div className="mt-3 border ml-[3.6rem] mr-[3.3rem] bg-white text-sm font-medium">
+      <hr className="w-[83%] ml-52" />
+      <div className="mt-3 border ml-[13rem] mr-[3.3rem] bg-white text-sm font-medium">
         <div className="bg-[#f7f9f7] p-4 pb-3 flex gap-44">
           <i className="fa-regular fa-square text-gray-400 text-xl -mr-32"></i>
           <i className="fa-solid fa-arrow-up -mr-[9.6rem] mt-[0.4rem]"></i>
@@ -41,7 +41,7 @@ const Services = () => {
           <p className="font-normal"> No data available</p>
         </div>
       </div>
-      <div className="flex justify-end border ml-[3.6rem] mr-[3.3rem] bg-white mt-[0.03rem] p-4">
+      <div className="flex justify-end border ml-[13rem] mr-[3.3rem] bg-white mt-[0.03rem] p-4">
         <p className="text-xs text-gray-500">
           Rows per page:
           <select className="outline-none ml-6">
